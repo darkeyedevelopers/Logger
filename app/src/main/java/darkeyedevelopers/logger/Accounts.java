@@ -10,9 +10,9 @@ public class Accounts {
     private String username;
     private String pass;
 
-    public Accounts(String _username,String _pass){
-        username = _username;
-        pass = _pass;
+    public Accounts(String username,String pass){
+        this.username = username;
+        this.pass = pass;
     }
 
     public String getPass() {

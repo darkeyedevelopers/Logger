@@ -37,13 +37,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
-                        app:fabSize="mini"
-                        app:srcCompat="@android:drawable/ic_input_add"
+                        app:srcCompat="@drawable/plus"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="40dp"
                         android:id="@+id/cyberadd"
                         android:layout_alignParentBottom="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginEnd="44dp"
-                        android:layout_marginBottom="45dp" />
+                        android:layout_alignParentEnd="true" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -54,8 +53,8 @@
                         android:foregroundGravity="center_vertical|center_horizontal"
                         android:text="here"
                         android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="48dp" />
+                        android:layout_alignParentStart="true" />
+
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -65,12 +64,15 @@
                     android:orientation="vertical">
 
                     <android.support.design.widget.FloatingActionButton
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:clickable="true"
-                        app:fabSize="mini"
-                        app:srcCompat="@android:drawable/ic_input_add"
-                        android:id="@+id/jioadd" />
+                        app:srcCompat="@drawable/plus"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="40dp"
+                        android:id="@+id/jioadd"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -84,8 +86,5 @@
         </LinearLayout>
     </TabHost>
 
-    <include layout="@layout/content_main"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
